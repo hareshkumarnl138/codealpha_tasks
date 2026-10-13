@@ -1,0 +1,25 @@
+CODEALPHA TASK 1 — CREDIT SCORING MODEL
+=======================================
+
+1. Open this folder in VS Code or Antigravity.
+2. Open a terminal in this folder.
+3. Run:
+     py -m venv .venv
+     .\.venv\Scripts\activate
+     python -m pip install --upgrade pip
+     python -m pip install -r requirements.txt
+4. Run each command in order:
+     python -m src.01_data_preprocessing
+     python -m src.02_eda
+     python -m src.03_train_models
+     python -m src.04_evaluate_models
+
+Dataset location:
+  data\raw\default of credit card clients.xls
+
+Read README.md for methodology, outputs, and prediction instructions.
+If PowerShell blocks virtual-environment activation, see README.md for
+the Command Prompt alternative.
+
+Important: the dataset does not contain an income column.
+All model metrics must be taken from the outputs generated on your machine.
