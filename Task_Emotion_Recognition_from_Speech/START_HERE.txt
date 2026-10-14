@@ -1,0 +1,15 @@
+CODEALPHA TASK 2 — SPEECH EMOTION RECOGNITION
+
+1. Open this folder in Antigravity or VS Code.
+2. CMD: py -m venv .venv
+3. Activate: .venv\Scripts\activate.bat
+4. Install: python -m pip install -r requirements.txt
+5. Download RAVDESS speech WAV archive (link in README.md).
+6. Extract Actor_01 ... Actor_24 into data\raw\.
+7. Run in order:
+   python -m src.01_check_dataset
+   python -m src.02_prepare_data
+   python -m src.03_train_model
+8. Optional UI: streamlit run app.py
+
+Read README.md for full instructions. Do not invent metrics before training.

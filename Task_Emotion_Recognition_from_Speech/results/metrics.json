@@ -1,0 +1,15 @@
+{
+  "test_accuracy": 0.37682926829268293,
+  "macro_precision": 0.3925459858591924,
+  "macro_recall": 0.38115079365079363,
+  "macro_f1": 0.3545590188763188,
+  "classes": [
+    "ANG",
+    "DIS",
+    "FEA",
+    "HAP",
+    "NEU",
+    "SAD"
+  ],
+  "test_samples": 820
+}
