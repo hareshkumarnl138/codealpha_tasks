@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+data/
+models/*.pth
+results/*.csv
+results/*.json
+results/*.png

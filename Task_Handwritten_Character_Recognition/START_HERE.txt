@@ -1,0 +1,18 @@
+CODEALPHA TASK 3 — START HERE
+
+1. Open CMD in this folder.
+2. Run:
+   py -m venv .venv
+   .venv\Scripts\activate.bat
+   python -m pip install --upgrade pip
+   python -m pip install -r requirements.txt
+3. Quick training test:
+   python train.py --epochs 3 --batch-size 128
+4. For longer training:
+   python train.py --epochs 8 --batch-size 128
+5. Start the user interface:
+   streamlit run app.py
+6. Optional CLI prediction:
+   python predict.py "path\to\character.png"
+
+EMNIST is downloaded automatically the first time train.py runs. Keep CMD open while training runs. Dataset and model checkpoint are excluded from GitHub by .gitignore.
