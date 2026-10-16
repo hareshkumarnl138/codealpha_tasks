@@ -1,0 +1,13 @@
+TASK 4 — DISEASE PREDICTION FROM MEDICAL DATA
+
+1. Extract the ZIP.
+2. Copy datasets from C:\Users\hk838\Downloads\Data into this project's data folder.
+3. Open CMD in the project folder.
+4. Run:
+   py -m venv .venv
+   .venv\Scripts\activate
+   pip install -r requirements.txt
+   streamlit run app.py
+5. Select a dataset and carefully verify the target column before training.
+
+Educational prototype only; not for clinical diagnosis.
